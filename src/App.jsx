@@ -12,10 +12,10 @@ var rooms = [
   },
 ];
 
-const [currentRoom] = useState(0);
+const [currentRoom,setCurrentRoom] = useState(0);
 function chooseOption(o) 
 {
-currentRoom=1;
+  setCurrentRoom(1);
 }
 
 function App() {
